@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("BootsAndSpurs.tff") format("truetype");
+}
+h1 {
+  font-family: "Boots And Spurs";
+}
+
+header {
+  background-color: #202020;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+.autenticIMG {
+  background-image: url("home-header.jpg");
+}
+
+.reviews {
+  background-color: #e8e8e8;
+}
+
+footer {
+  background-color: #202020;
+  color: #fff;
+}
