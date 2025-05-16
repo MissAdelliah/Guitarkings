@@ -2,7 +2,9 @@
   font-family: "Boots And Spurs";
   src: url("/fonts/BootsAndSpurs.ttf") format(truetype);
 }
-h1 {
+h1,
+h2,
+.logo {
   font-family: "Boots And Spurs";
 }
 
@@ -13,17 +15,25 @@ header {
 
 header a {
   color: #fff;
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+.logo {
+  font-size: 45px;
+}
 .autenticIMG {
   background-image: url("/images/home-header.jpg");
 }
 
 .reviews {
   background-color: #e8e8e8;
-}
-
-footer {
-  background-color: #202020;
-  color: #fff;
 }
