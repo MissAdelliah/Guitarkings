@@ -25,7 +25,14 @@ nav ul {
   justify-content: space-between;
   width: 450px;
 }
-
+.cta {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 1.5em;
+}
+.cta-sale {
+  background-color: #127300;
+}
 footer {
   background-color: #202020;
   color: #fff;
