@@ -11,16 +11,19 @@ h2,
 header {
   background-color: #202020;
   color: #fff;
+  display: flex;
 }
 
 header a {
   color: #fff;
   text-decoration: none;
+  font-size: 30px;
 }
 nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
 }
 
 footer {
@@ -32,8 +35,23 @@ footer {
 }
 .autenticIMG {
   background-image: url("/images/home-header.jpg");
+  min-height: 70vh;
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .reviews {
   background-color: #e8e8e8;
+}
+.review_portrait {
+  border-radius: 50%;
+}
+.selling-points_image {
+  border-radius: 100px;
+}
+
+.underline {
+  text-decoration: underline;
 }
