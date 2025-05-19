@@ -5,7 +5,11 @@
 h1,
 h2,
 .logo {
-  font-family: "Boots And Spurs";
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+.product-list h2 {
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -17,29 +21,54 @@ header {
 header a {
   color: #fff;
   text-decoration: none;
+  padding: none;
   font-size: 30px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 450px;
 }
+
+nav li {
+  inline-block;
+}
+
 .cta {
   background-color: #bb0000;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding: 10px, 80px;
+  border-radius: 5px;
 }
+
+.cta-button-red {
+   background-color: #bb0000;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 30px;
+}
+
 .cta-sale {
   background-color: #127300;
+  color: #fff
+  font-size: 0.8em
+  padding: 8px 30px;
 }
+
 footer {
   background-color: #202020;
   color: #fff;
+  text-align: center;
 }
+
 .logo {
   font-size: 45px;
 }
+
 .autenticIMG {
   background-image: url("/images/home-header.jpg");
   min-height: 70vh;
@@ -52,13 +81,27 @@ footer {
 .reviews {
   background-color: #e8e8e8;
 }
+
 .review_portrait {
   border-radius: 50%;
 }
+
 .selling-points_image {
   border-radius: 100px;
 }
 
+.featured_products {
+  background-color: #fbfbfb;
+}
+
 .underline {
   text-decoration: underline;
+}
+
+/* Contact page */
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
 }
