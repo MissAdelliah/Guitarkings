@@ -51,24 +51,28 @@ nav ul {
   margin: auto;
 }
 
-.cta-button-red {
+.cta-home-red {
   background-color: #bb0000;
   color: #fff;
   font-size: 0.8em;
   text-transform: uppercase;
-  padding: 8px 30px;
+  padding: 8px 20px;
   text-decoration: none;
   border-radius: 5px;
+  grid-column: 2;
+  grid-row: 2/4;
 }
 
-.cta-sale {
+.cta-home-sale {
   background-color: #127300;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  padding: 8px 30px;
+  padding: 8px 20px;
   font-size: 0.8em;
   border-radius: 5px;
+  grid-column: 2;
+  grid-row: 2/4;
 }
 
 footer {
@@ -150,6 +154,18 @@ footer {
   width: 100%;
 }
 
+.products img {
+  grid-column: -1/1;
+}
+
+.products h2,
+.products h3,
+.products p {
+  grid-column: 1;
+  font-size: 1em;
+  margin: 5px;
+}
+
 .review_section {
   display: flex;
   max-width: 1000px;
@@ -163,6 +179,9 @@ footer {
 
 .products {
   background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .underline {
@@ -232,4 +251,52 @@ textarea {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+/* guitar page*/
+
+.guitars {
+  max-width: 1000px;
+  margin: auto;
+}
+.cta-button-red {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  min-width: 51.2px;
+  text-align: center;
+}
+
+.cta-sale {
+  background-color: #127300;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  min-width: 51.2px;
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product--sale {
+  display: flex;
+}
+
+.old-price {
+  text-decoration: line-through;
 }
