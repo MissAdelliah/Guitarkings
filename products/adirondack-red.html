@@ -3,43 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guitar Kings | Adirondack Red</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <title>Document</title>
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
+      <a class="logo" href="index.html">Guitar Kings</a>
       <nav>
-        <a href="index.html"><p>Guitar Kings</p></a>
         <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="guitars.html"><li>Guitars</li></a>
-          <a href="contact.html"><li>Contact</li></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="guitars.html">Guitars</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div>
-        <img src="/images/product.jpg" alt="Guitar" />
-        <div>
+    <main class="product-specific">
+      <section>
+        <img src="/images/product.jpg" alt="Guitar" class="product_IMG" />
+        <div class="product_thumbnails">
           <img
             src="/images/product-specific.jpg"
             alt="Playing guitar"
+            class="product_IMG"
           />
           <img
             src="/images/product-specific.jpg"
             alt="Playing guitar"
+            class="product_IMG"
           />
           <img
             src="/images/product-specific.jpg"
             alt="Paying guitar"
+            class="product_IMG"
           />
           <img
             src="/images/product-specific.jpg"
             alt="Playing guitar"
+            class="product_IMG"
           />
         </div>
-      </div>
-      <div>
+      </section>
+      <section class="product_text">
         <h1>Adirondack Red</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -49,10 +53,10 @@
           Nam sed lectus sit amet velit ultrices sollicitudin. Praesent
           tristique justo et purus consectetur ultrices.
         </p>
-        <p>$500</p>
-        <button>Contact Us</button>
-      </div>
+        <p class="product_price">$500</p>
+        <button class="cta">Contact Us</button>
+      </section>
     </main>
-  </<footer>Copyright &copy;</footer>
-</body>
+    <footer>Copyright &copy;</footer>
+  </body>
 </html>

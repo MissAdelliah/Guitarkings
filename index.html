@@ -8,7 +8,7 @@
       content="Get real authentic, hand-crafted guitars from Guitar Kings"
     />
     <title>Guitar Kings | Home</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -24,8 +24,10 @@
       </nav>
     </header>
     <section class="autenticIMG">
-      <h1>Authentic Handmade Guitars</h1>
-      <a href="guitars.html" class="cta">View Guitars</a>
+      <div class="welcome_content">
+        <h1>Authentic Handmade Guitars</h1>
+        <a href="guitars.html" class="cta">View Guitars</a>
+      </div>
     </section>
     <main>
       <section class="selling-points">
@@ -47,35 +49,37 @@
       </section>
       <section class="reviews">
         <h2>Reviews</h2>
-        <div>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse quis dictum elit. In hac habitasse platea dictumst."
-          </p>
-          <p>- Bob Willis</p>
-          <img
-            src="images/review-bio.jpg"
-            alt="Profile picture of Bob Willis"
-            class="review_portrait"
-          />
-        </div>
-        <div>
-          <p>
-            "Maecenas interdum, erat nec pulvinar euismod, eros erat ornare
-            mauris, commodo vestibulum odio nunc id urna. Sed volutpat consequat
-            dolor, nec sollicitudin elit eleifend vitae."
-          </p>
-          <p>- Sally Oldfield</p>
-          <img
-            src="images/review-bio2.jpg"
-            alt="Profile picture of Bob Willis"
-            class="review_portrait"
-          />
+        <div class="review_section">
+          <div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis dictum elit. In hac habitasse platea dictumst."
+            </p>
+            <span class="reviews_name"><p>- Bob Willis</p></span>
+            <img
+              src="images/review-bio.jpg"
+              alt="Profile picture of Bob Willis"
+              class="review_portrait"
+            />
+          </div>
+          <div>
+            <p>
+              "Maecenas interdum, erat nec pulvinar euismod, eros erat ornare
+              mauris, commodo vestibulum odio nunc id urna. Sed volutpat
+              consequat dolor, nec sollicitudin elit eleifend vitae."
+            </p>
+            <span class="reviews_name"><p>- Sally Oldfield</p></span>
+            <img
+              src="images/review-bio2.jpg"
+              alt="Profile picture of Bob Willis"
+              class="review_portrait"
+            />
+          </div>
         </div>
       </section>
       <section class="featured">
         <h2>View Our Guitars</h2>
-        <div class="featured_products">
+        <div class="products">
           <img src="images/product.jpg" alt="Adirondack Red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
@@ -83,13 +87,13 @@
             >View</a
           >
         </div>
-        <div class="featured_products">
+        <div class="products">
           <img src="images/product.jpg" alt="Adirondack Red" />
           <h3>Adirondack Red</h3>
           <p><span>$500</span>$400</p>
           <a href="/products/adirondack-red.html" class="cta-sale">On sale</a>
         </div>
-        <div class="featured_products">
+        <div class="products">
           <img src="images/product.jpg" alt="Adirondack Red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
@@ -97,7 +101,7 @@
             >View</a
           >
         </div>
-        <div class="featured_products">
+        <div class="products">
           <img src="images/product.jpg" alt="Adirondack Red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
