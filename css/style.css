@@ -12,6 +12,10 @@ h2,
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+
+}
 header {
   background-color: #202020;
   color: #fff;
@@ -79,7 +83,7 @@ footer {
   background-color: #202020;
   color: #fff;
   text-align: center;
-  height: 50px;
+  padding: 20px;
 }
 
 /* Home Page */
@@ -271,13 +275,13 @@ textarea {
   text-align: center;
 }
 
-.cta-sale {
+.cta-button-green {
   background-color: #127300;
-  text-decoration: none;
   color: #fff;
+  font-size: 0.8em;
   text-transform: uppercase;
   padding: 8px 30px;
-  font-size: 0.8em;
+  text-decoration: none;
   border-radius: 5px;
   min-width: 51.2px;
   text-align: center;
@@ -285,18 +289,18 @@ textarea {
 
 .product-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, 300px);
   grid-gap: 20px;
 }
 
-.product img {
+.products img {
   width: 100%;
-}
-
-.product--sale {
-  display: flex;
 }
 
 .old-price {
   text-decoration: line-through;
 }
+
+/*.products:nth-child(2) {
+  display: flex;
+}/*
